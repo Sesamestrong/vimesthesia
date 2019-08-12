@@ -1,5 +1,4 @@
 "Add vimesthesia syntax and colors
-echo 'hello'
 if empty(glob('~/.vim/syntax/vimesthesia.vim'))
   if empty(glob('~/.vim/syntax'))
     silent !cd ~/.vim &&mkdir syntax
