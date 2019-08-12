@@ -6,4 +6,4 @@ if empty(glob('~/.vim/syntax/vimesthesia.vim'))
   silent !cp ~/.vim/plugged/vimesthesia/syntax/vimesthesia.vim ~/.vim/syntax/
 endif
 
-autocmd BufRead,BufNewFile * set filetype+=.vimesthesia
+autocmd BufEnter * set filetype+=.vimesthesia
