@@ -1,23 +1,23 @@
-" Vim syntax file
+" Vim syntax file,jsVariableDef
 " Language: None
 " Maintainer: Andrew Healey
 " Latest Revision: 11 August 2019
 
-"if exists("b:current_syntax")
+"if exists("b:current_syntax"),jsVariableDef
 "  finish
 "endif
-syn match SYN_A /A/
-syn match SYN_A /a/
-syn match SYN_E /e/
-syn match SYN_E /E/
-syn match SYN_I /i/
-syn match SYN_I /I/
-syn match SYN_O /o/
-syn match SYN_O /O/
-syn match SYN_S /s/
-syn match SYN_S /S/
-syn match SYN_T /t/
-syn match SYN_T /T/
+syn match SYN_A /A/ containedin=ALL
+syn match SYN_A /a/ containedin=ALL
+syn match SYN_E /e/ containedin=ALL
+syn match SYN_E /E/ containedin=ALL
+syn match SYN_I /i/ containedin=ALL
+syn match SYN_I /I/ containedin=ALL
+syn match SYN_O /o/ containedin=ALL
+syn match SYN_O /O/ containedin=ALL
+syn match SYN_S /s/ containedin=ALL
+syn match SYN_S /S/ containedin=ALL
+syn match SYN_T /t/ containedin=ALL
+syn match SYN_T /T/ containedin=ALL
 
 hi SYN_A guibg=NONE guifg=#6a61f2 guisp=#6a61f2 gui=bold ctermbg=NONE ctermfg=63 cterm=bold
 hi SYN_E guifg=#dd00ff guibg=#000000 guisp=#000000 gui=NONE ctermfg=165 ctermbg=NONE cterm=NONE
